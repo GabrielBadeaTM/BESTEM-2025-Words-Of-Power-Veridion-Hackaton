@@ -1,4 +1,4 @@
-# 🧩 Pathfinder Grid Simulation
+# 🧩 1. Pathfinder Grid Simulation
 
 ## 📝 Problem Overview
 
@@ -22,3 +22,25 @@ Several utility functions manage grid allocation, bounds checking, and path trac
 - Memory is managed manually with dynamic allocation.
 - The BFS used for both finding shortest paths and checking reachability.
 - The code was written and tested as part of a technical screening challenge.
+
+## 🧠 Additional Problem – Dynamic Programming Game
+
+This second part of the challenge is a classic dynamic programming problem involving a two-player game.
+
+# 🧊 2. Crystal - Dinamic Programing
+
+Players Arin and Bion take turns subtracting either 2, 5, or 7 from a starting number `T`. The player who cannot make a move loses.
+
+Given multiple values of `T`, determine whether Arin (who always starts) can win each game, assuming both players play optimally.
+
+### 💡 Solution
+
+I use a bottom-up dynamic programming approach:
+
+- We compute for each `T` whether it is a winning (`true`) or losing (`false`) position.
+- A position `T` is winning if there exists at least one move that puts the opponent in a losing position.
+- We iterate from 0 to the target `T` and mark each accordingly based on the available moves.
+
+The algorithm returns `"Arin"` if the starting position is a win for Arin, or `"Bion"` otherwise.
+
+This is a simple, clean implementation of **Grundy Numbers** (or Nim-like) logic using `O(n)` time and space.
