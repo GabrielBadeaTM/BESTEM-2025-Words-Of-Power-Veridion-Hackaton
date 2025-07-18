@@ -1,4 +1,4 @@
-### **Veridion Words of Power Challenge**
+# 💥 **Veridion Words of Power Challenge**
 Can You Outsmart the System?
 
 Unleash the power of words in a high-stakes battle of strategy and wit!
@@ -9,7 +9,7 @@ Some forces are defeated with strength, others with cunning, speed, or even resi
 
 **Choose wisely**, because your goal isn’t just to survive — it's to **spend the least** and **outsmart your opponent**.
 
-### 🔮 Context
+# 🔮 Context
 
 In 2025, I participated in a hackathon-style competition organized by BEST in collaboration with Veridion. The contest involved teams of 2 to 4 people, selected based on multiple challenges.
 
@@ -36,7 +36,7 @@ This approach allowed us to efficiently and accurately decide the outcome withou
 
 Below is the detailed task description provided by the organizers.
 
-### **🚀 The Challenge**
+# **🚀 The Challenge**
 
 A game where:
 
