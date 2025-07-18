@@ -34,6 +34,8 @@ This approach allowed us to efficiently and accurately decide the outcome withou
 
 ## 🧇 Note
 
+‼️ We used `glove.6B.200d` embeddings for word vector representation, but the file is not included in this repository due to its large size.
+
 Below is the detailed task description provided by the organizers.
 
 ---
