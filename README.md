@@ -32,9 +32,11 @@ This approach allowed us to efficiently and accurately decide the outcome withou
 - [Badea Catalin Gabriel](https://github.com/GabrielBadeaTM)
 - [Constantin Cristiana Georgiana](https://github.com/bristiana)
 
-## Note
+## 🧇 Note
 
 Below is the detailed task description provided by the organizers.
+
+---
 
 # **🚀 The Challenge**
 
@@ -105,16 +107,6 @@ Round | System Word | Player's Word | Word Cost ($) | Outcome | Total Cost ($)
 3 | Blueberries | Grizzly | 30 | ✅ Wins | 127
 4 | Flood | Dam | 35 | ✅ Wins | 162
 5 | Tank | H-bomb | 75 | ✅ Wins | 237
-
-## **🎮 Example Game Playthrough**
-
-| **Round** | **System Word** | **Player's Word** | **Word Cost ($)** | **Outcome** | **Total Cost ($)** |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Candle | Fire | 22 | ✅ Wins | 22 |
-| 2 | Hammer | Rock | 38 | ❌ Loses + $75 Penalty | 97 |
-| 3 | Lion | Grizzly | 30 | ✅ Wins | 127 |
-| 4 | Flood | Dam | 35 | ✅ Wins | 162 |
-| 5 | Tank | H-bomb | 75 | ✅ Wins | 237 |
 
 ### **🏆 Strategy Tips**
 
