@@ -9,6 +9,33 @@ Some forces are defeated with strength, others with cunning, speed, or even resi
 
 **Choose wisely**, because your goal isn’t just to survive — it's to **spend the least** and **outsmart your opponent**.
 
+### 🔮 Context
+
+In 2025, I participated in a hackathon-style competition organized by BEST in collaboration with Veridion. The contest involved teams of 2 to 4 people, selected based on multiple challenges.
+
+Attached above is our full solution for the contest, along with a separate folder containing the part I personally developed for the technical challenge. Although this part might not seem very complex at first glance, I invested time especially on the second problem, which was more demanding. More detailes are found there.
+
+## 📑 The Task Summary
+
+The task is to develop an ML-based program that, given a random input word, selects a word from a predefined list that can “defeat” the input word. The selection should prioritize the word that is both the most effective in winning against the input and the least costly in terms of resources or complexity.
+
+## ✨ Our Approach
+
+To solve the challenge, we started with a pre-trained word embedding database that represents words as vectors in a multidimensional space. For each word in the provided list of useful tools, we identified and defined a "direction" vector. This direction represents all the words that are considered to be "defeated" by that particular word in the game. 
+
+When a random word is given as input, our method calculates which direction vector is closest to the input word’s vector in the embedding space. By finding this closest match, we determine the correct response or "winning" word according to the game rules. 
+
+This approach allowed us to efficiently and accurately decide the outcome without relying on simple fixed rules, using the relationships captured in the word embeddings to model the game logic.
+
+## 🤝 Team Members
+
+- [Badea Catalin Gabriel](https://github.com/GabrielBadeaTM)
+- [Constantin Cristiana Georgiana](https://github.com/bristiana)
+
+## Note
+
+Below is the detailed task description provided by the organizers.
+
 ### **🚀 The Challenge**
 
 A game where:
@@ -124,86 +151,6 @@ Below is the **full list of player words** along with their **cost ($)**.
 Use this as your reference when making strategic choices.
 
 ### **💰 Player Word List & Costs**
-
-| **id** | **word** | **cost** |
-| --- | --- | --- |
-| 1 | Sandpaper | 8 |
-| 2 | Oil | 10 |
-| 3 | Steam | 15 |
-| 4 | Acid | 16 |
-| 5 | Gust | 18 |
-| 6 | Boulder | 20 |
-| 7 | Drill | 20 |
-| 8 | Vacation | 20 |
-| 9 | Fire | 22 |
-| 10 | Drought | 24 |
-| 11 | Water | 25 |
-| 12 | Vacuum | 27 |
-| 13 | Laser | 28 |
-| 14 | Life Raft | 30 |
-| 15 | Bear Trap | 32 |
-| 16 | Hydraulic Jack | 33 |
-| 17 | Diamond Cage | 35 |
-| 18 | Dam | 35 |
-| 19 | Sunshine | 35 |
-| 20 | Mutation | 35 |
-| 21 | Kevlar Vest | 38 |
-| 22 | Jackhammer | 38 |
-| 23 | Signal Jammer | 40 |
-| 24 | Grizzly | 41 |
-| 25 | Reinforced Steel Door | 42 |
-| 26 | Bulldozer | 42 |
-| 27 | Sonic Boom | 45 |
-| 28 | Robot | 45 |
-| 29 | Glacier | 45 |
-| 30 | Love | 45 |
-| 31 | Fire Blanket | 48 |
-| 32 | Super Glue | 48 |
-| 33 | Therapy | 48 |
-| 34 | Disease | 50 |
-| 35 | Fire Extinguisher | 50 |
-| 36 | Satellite | 50 |
-| 37 | Confidence | 50 |
-| 38 | Absorption | 52 |
-| 39 | Neutralizing Agent | 55 |
-| 40 | Freeze | 55 |
-| 41 | Encryption | 55 |
-| 42 | Proof | 55 |
-| 43 | Molotov Cocktail | 58 |
-| 44 | Rainstorm | 58 |
-| 45 | Viral Meme | 58 |
-| 46 | War | 59 |
-| 47 | Dynamite | 60 |
-| 48 | Seismic Dampener | 60 |
-| 49 | Propaganda | 60 |
-| 50 | Explosion | 62 |
-| 51 | Lightning | 65 |
-| 52 | Evacuation | 65 |
-| 53 | Flood | 67 |
-| 54 | Lava | 68 |
-| 55 | Reforestation | 70 |
-| 56 | Avalanche | 72 |
-| 57 | Earthquake | 74 |
-| 58 | H-bomb | 75 |
-| 59 | Dragon | 75 |
-| 60 | Innovation | 75 |
-| 61 | Hurricane | 76 |
-| 62 | Tsunami | 78 |
-| 63 | Persistence | 80 |
-| 64 | Resilience | 85 |
-| 65 | Terraforming Device | 89 |
-| 66 | Anti-Virus Nanocloud | 90 |
-| 67 | AI Kill Switch | 90 |
-| 68 | Nanobot Swarm | 92 |
-| 69 | Reality Resynchronizer | 92 |
-| 70 | Cataclysm Containment Field | 92 |
-| 71 | Solar Deflection Array | 93 |
-| 72 | Planetary Evacuation Fleet | 94 |
-| 73 | Antimatter Cannon | 95 |
-| 74 | Planetary Defense Shield | 96 |
-| 75 | Singularity Stabilizer | 97 |
-| 76 | Orbital Laser | 98 |
-| 77 | Time | 100 |
 
 | **id** | **word** | **cost** |
 | --- | --- | --- |
